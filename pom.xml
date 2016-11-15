@@ -135,6 +135,12 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <warName>ROOT</warName>
+                </configuration>
+            </plugin>
         </plugins>
         <resources>
             <resource>
